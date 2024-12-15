@@ -1,0 +1,31 @@
+body{
+    position: relative;
+    height: 40rem;
+    margin: 0;
+    background-color: rgb(43, 70, 160);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.page{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 145, 0);
+    padding: 15px;
+    width: 40rem;
+    border: solid black 5px;
+    border-radius: 5px;
+}
+
+.title{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 15px;
+    color: rgb(62, 16, 230);
+}
+
+.icon{
+    text-align: center;
+}
